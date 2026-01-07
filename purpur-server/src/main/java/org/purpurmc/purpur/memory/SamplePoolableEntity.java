@@ -11,14 +11,14 @@ public class SamplePoolableEntity implements Poolable {
     private double x, y, z;
     
     /**
-     * Create a new poolable entity
+     * Create a new poolable entity.
      */
     public SamplePoolableEntity() {
         reset();
     }
     
     /**
-     * Create a new poolable entity with specified values
+     * Create a new poolable entity with specified values.
      */
     public SamplePoolableEntity(String name, int health, double x, double y, double z) {
         this.name = name;
